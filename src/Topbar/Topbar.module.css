@@ -28,10 +28,9 @@
 .NavItems:hover{
     color:black;
     font-weight:800;
-    /*text-decoration:underline;*/    /*text-decoration-color: blue;*/
     text-indent:10px;
     margin-bottom:10px;
-    border-bottom:4px solid blue;
+   
 
 }
 .AcountDiv{
