@@ -1,0 +1,77 @@
+.Topbar {
+    width: 100%;
+    padding: 2% 3%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ToggleMenu {
+    width: 20px;
+}
+
+.Logo {
+  width:150px;
+    font-weight: 900;
+    
+    margin: 0 50px 0 32px;
+}
+.NavItems{
+    margin-left:24px;
+    margin-right: 24px;
+    color:gray;
+  
+}
+.NavItems:hover{
+    color:black;
+    font-weight:800;
+    /*text-decoration:underline;*/    /*text-decoration-color: blue;*/
+    text-indent:10px;
+    margin-bottom:10px;
+    border-bottom:4px solid blue;
+
+}
+.AcountDiv{
+    width:140px;
+    height:50px;
+    background-color: rgb(254, 216, 219);
+    text-align:center;
+    border-radius:20px;
+}
+.AccountDivText{
+    color:blue;
+    font-weight:600;
+transform:translateY(-20%);
+
+}
+
+.HamburgerLines
+{
+    position:relative;
+    right:30px;
+    display: none;
+}
+
+
+
+
+
+@media(max-width:400px){
+    .NavItems{
+        display:none;
+    }
+    .AcountDiv{
+        display:none;
+    }
+    .Logo{
+        width:80px;
+        margin-left:20px;
+    }
+    .HamburgerLines{
+        display: block;
+    }
+
+}

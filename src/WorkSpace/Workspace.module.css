@@ -1,0 +1,96 @@
+.Workplace{
+    margin-left:160px;
+ 
+    
+}
+
+.TitleFlex{
+    display:flex;
+    /* border:1px solid black; */
+}
+
+.Title{
+    font-size:69px;
+    width:450px;
+  
+}
+.Description{
+    color:gray;
+    width:400px;
+}
+.FulliStop{
+    width:15px;
+    height:13px;
+    background-color: rgb(82,67,192);
+    margin-top:200px;
+    margin-right:20px;
+}
+.PrimaryBtn{
+    outline:none;
+    border:0;
+    background-color: rgb(82,67,192);
+    color:white;
+    border-radius:20px;
+    padding:20px 26px;
+    
+}
+
+.ArrowDown{
+    border:1px solid gainsboro;
+    border-radius:25px;
+    margin-left:5px;
+   
+}
+.ArrowUp{
+    /* border:1px solid gray; */
+    margin-left:15px;
+
+}
+.OptionArr{
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    /* border:1px solid black; */
+    width:100%;
+}
+
+
+
+
+
+@media(max-width:400px){
+    .Workplace{
+        width:306px;
+        margin-left:30px;
+        margin-right:0;
+    }
+    .Title{
+        font-size:40px;
+        width:350px; 
+        /* display: none;  */
+    }
+    .FulliStop{
+        padding-left:10px;
+        margin-top:110px;
+        margin-left:5px;
+        margin-right:110px;
+    }
+    .Description{
+        width:250px;
+        font-size:16px;
+        font-weight:600;
+        margin-top: 0px;
+        margin-bottom: 8px;
+        
+    }
+    .PrimaryBtn{
+        /*padding:10px 30px;
+*/        font-size: 12px;
+        text-align:center;
+width:130px;
+    }
+    .OptionArr{
+        width:92%;
+    }
+
+}

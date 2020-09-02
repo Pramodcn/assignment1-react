@@ -1,0 +1,24 @@
+.Imagecontainer{
+    margin-top:60px;
+    /* background-image: url(); */
+    object-fit: cover;
+    width:110%;
+    box-sizing: border-box;
+    margin-left:50px;
+  
+    
+}
+.LandingSectionImage{
+    width:80%;
+    height:600px;
+    margin-bottom: 60px;
+}
+
+@media(max-width:400px){
+    .LandingSectionImage{
+        display:none;
+    }
+    .Imagecontainer{
+        display:none;
+    }
+}

@@ -1,0 +1,22 @@
+.LandingSection{
+    display:flex;
+    width:100%;
+    height:100vh;
+}
+.Left{
+    width:40%;
+    /* background-color: cadetblue; */
+}
+.Right{
+    width:60%;
+    /* background-color: coral; */
+}
+
+@media(max-width:400px){
+    .Right{
+        display:none;
+    }
+    .Left{
+        width:100%;
+    }
+}

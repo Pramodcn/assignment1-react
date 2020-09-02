@@ -1,0 +1,126 @@
+
+.AnimationFlex{   
+  width:100%;
+}
+.Arrone{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:linear-gradient(90deg,grey,white); */
+    /* background-color: rgba(226,226,226,1); */
+   /* border:1px solid blue; */
+   width:100%;
+   align-items: center;
+   border-radius:10px;
+   background-color: rgba(226,226,226,1);
+   
+}
+.Tick{
+    width:25px;
+    height:25px;
+    margin-left:7px;
+    margin-right:0px;
+}
+.UserImg{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+}
+.AnimationName{
+    width:120px;
+    /* border:1px solid black; */
+
+}
+.Arrthree{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    /* background-color:linear-gradient(90deg,grey,white); */
+    /* background-color: rgba(226,226,226,1); */
+   /* border:1px solid blue; */
+   border-radius:10px;
+   background-color: rgba(226,226,226,1);
+  
+ 
+   align-items: center;
+}
+.Arrtwo{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    /* background-color:linear-gradient(90deg,grey,white); */
+    /* background-color: rgba(226,226,226,1); */
+   /* border:1px solid blue; */
+   -webkit-box-shadow: 4px 3px 10px 10px rgba(233,233,233,1);
+   -moz-box-shadow: 4px 3px 10px 10px rgba(233,233,233,1);
+   box-shadow: 4px 3px 10px 10px rgba(233,233,233,1);
+   align-items: center;
+   /* background-color: whitesmoke; */
+  
+   
+
+   border-radius:10px;
+}
+.Arrfour{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(226,226,226,1);
+
+    /* background-color:linear-gradient(90deg,grey,white); */
+    /* background-color: rgba(226,226,226,1); */
+   /* border:1px solid blue; */
+   width:100%;
+   align-items: center;
+   border-radius:10px;
+}
+.ColorPink{
+    width:25px;
+    height:10px;
+    background-color: rgb(255,196,214);
+    border-radius:20px;
+    margin-left:7px;
+    margin-right: 7px;
+}
+.ColorOrange{
+    width:25px;
+    height:10px;
+    background-color: rgb(253,98,53);
+    border-radius:20px; 
+    margin-left:7px;
+    margin-right: 7px;
+}
+.ColorGreen{
+    width:25px;
+    height:10px;
+    background-color: rgb(159,209,150);
+    border-radius:20px; 
+    margin-left:7px;
+    margin-right: 7px;
+}
+.ColorRed{
+    width:25px;
+    height:10px;
+    background-color: rgb(254,224,160);
+    border-radius:20px; 
+    margin-left:7px;
+    margin-right: 7px;
+}
+
+
+@media(max-width:400px){
+    
+.AnimationFlex{   
+    width:306px;
+    font-size:13px;
+    box-sizing: border-box;
+    /* border:1px solid black; */
+
+    
+  }
+   .Arrone{
+       margin-left: 0px;
+      
+   /* width:7%; */
+   } 
+  
+  
+}

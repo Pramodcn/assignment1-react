@@ -1,0 +1,38 @@
+.Maincontainer{
+    width:100%;
+}
+
+
+.Animation{
+    margin-left:160px;
+    margin-top:100px;
+}
+.LandingSectionImage{
+    display:none;
+}
+
+@media(max-width:400px){
+    .LandingImageDiv{
+        width:306px;
+        margin-left:16px;
+        margin-right:16px;
+        /* border:1px solid black; */
+    }
+    .LandingSectionImage{
+        display:block;
+        width:306px;
+        margin-left:16px;
+        margin-right:16px;
+        margin-top:105px;
+    }
+    .Maincontainer{
+        width:306px;
+        box-sizing: border-box;
+      
+    }
+    .Animation{
+        width:100%;
+        margin-left:30px;
+    }
+    
+}
